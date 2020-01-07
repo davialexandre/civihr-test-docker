@@ -1,0 +1,9 @@
+parameters:
+  version: 2
+  db_type: mysql_dsn
+  mysql_dsn: 'mysql://buildkit:pass@127.0.0.1:3306'
+  perm_type: worldWritable
+  hosts_type: none
+  httpd_type: none
+  httpd_visibility: local
+services: {  }
